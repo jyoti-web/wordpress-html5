@@ -5,7 +5,7 @@
   width: 100% !important;
   max-width: 100% !important;
 }
-b{
+b, strong{
   font-weight: bold !important;
 }
 .navbar ul{
@@ -353,4 +353,9 @@ li.recentcomments {
 }
 body{
   color: #3c3c3c;
+  font-family: "Scope One", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.woocommerce .single-product p, li, b, .woocommerce-result-count, .orderby{
+    font-size: 14px;
+
 }
