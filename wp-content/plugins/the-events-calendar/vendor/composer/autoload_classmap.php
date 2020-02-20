@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Tribe\\Events\\Collections\\Lazy_Post_Collection' => $baseDir . '/src/Tribe/Collections/Lazy_Post_Collection.php',
+    'Tribe\\Events\\Integrations\\Beaver_Builder' => $baseDir . '/src/Tribe/Integrations/Beaver_Builder.php',
     'Tribe\\Events\\Integrations\\WP_Rocket' => $baseDir . '/src/Tribe/Integrations/WP_Rocket.php',
     'Tribe\\Events\\Models\\Post_Types\\Event' => $baseDir . '/src/Tribe/Models/Post_Types/Event.php',
     'Tribe\\Events\\Models\\Post_Types\\Venue' => $baseDir . '/src/Tribe/Models/Post_Types/Venue.php',
@@ -210,6 +211,7 @@ return array(
     'Tribe\\Events\\Views\\V2\\Views\\Traits\\Breakpoint_Behavior' => $baseDir . '/src/Tribe/Views/V2/Views/Traits/Breakpoint_Behavior.php',
     'Tribe\\Events\\Views\\V2\\Views\\Traits\\HTML_Cache' => $baseDir . '/src/Tribe/Views/V2/Views/Traits/HTML_Cache.php',
     'Tribe\\Events\\Views\\V2\\Views\\Traits\\HTML_CacheTest' => $baseDir . '/tests/views_integration/Tribe/Events/Views/V2/Views/Traits/HTML_CacheTest.php',
+    'Tribe\\Events\\Views\\V2\\Views\\Traits\\Json_Ld_Data' => $baseDir . '/src/Tribe/Views/V2/Views/Traits/Json_Ld_Data.php',
     'Tribe\\Events\\Views\\V2\\Views\\Traits\\List_Behavior' => $baseDir . '/src/Tribe/Views/V2/Views/Traits/List_Behavior.php',
     'Tribe\\Events\\Views\\V2\\Views\\Traits\\List_BehaviorTest' => $baseDir . '/tests/views_integration/Tribe/Events/Views/V2/Views/Traits/List_BehaviorTest.php',
 );

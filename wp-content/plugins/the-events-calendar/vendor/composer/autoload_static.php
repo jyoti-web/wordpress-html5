@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d
+class ComposerStaticInitf9be21f72a00ed90ee8c58bcb9aa86a6
 {
     public static $prefixLengthsPsr4 = array (
         'T' => 
@@ -32,6 +32,7 @@ class ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d
 
     public static $classMap = array (
         'Tribe\\Events\\Collections\\Lazy_Post_Collection' => __DIR__ . '/../..' . '/src/Tribe/Collections/Lazy_Post_Collection.php',
+        'Tribe\\Events\\Integrations\\Beaver_Builder' => __DIR__ . '/../..' . '/src/Tribe/Integrations/Beaver_Builder.php',
         'Tribe\\Events\\Integrations\\WP_Rocket' => __DIR__ . '/../..' . '/src/Tribe/Integrations/WP_Rocket.php',
         'Tribe\\Events\\Models\\Post_Types\\Event' => __DIR__ . '/../..' . '/src/Tribe/Models/Post_Types/Event.php',
         'Tribe\\Events\\Models\\Post_Types\\Venue' => __DIR__ . '/../..' . '/src/Tribe/Models/Post_Types/Venue.php',
@@ -235,6 +236,7 @@ class ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d
         'Tribe\\Events\\Views\\V2\\Views\\Traits\\Breakpoint_Behavior' => __DIR__ . '/../..' . '/src/Tribe/Views/V2/Views/Traits/Breakpoint_Behavior.php',
         'Tribe\\Events\\Views\\V2\\Views\\Traits\\HTML_Cache' => __DIR__ . '/../..' . '/src/Tribe/Views/V2/Views/Traits/HTML_Cache.php',
         'Tribe\\Events\\Views\\V2\\Views\\Traits\\HTML_CacheTest' => __DIR__ . '/../..' . '/tests/views_integration/Tribe/Events/Views/V2/Views/Traits/HTML_CacheTest.php',
+        'Tribe\\Events\\Views\\V2\\Views\\Traits\\Json_Ld_Data' => __DIR__ . '/../..' . '/src/Tribe/Views/V2/Views/Traits/Json_Ld_Data.php',
         'Tribe\\Events\\Views\\V2\\Views\\Traits\\List_Behavior' => __DIR__ . '/../..' . '/src/Tribe/Views/V2/Views/Traits/List_Behavior.php',
         'Tribe\\Events\\Views\\V2\\Views\\Traits\\List_BehaviorTest' => __DIR__ . '/../..' . '/tests/views_integration/Tribe/Events/Views/V2/Views/Traits/List_BehaviorTest.php',
     );
@@ -242,9 +244,9 @@ class ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb3e0e6e71a0e02c7ce059a3e38602e1d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf9be21f72a00ed90ee8c58bcb9aa86a6::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf9be21f72a00ed90ee8c58bcb9aa86a6::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInitf9be21f72a00ed90ee8c58bcb9aa86a6::$classMap;
 
         }, null, ClassLoader::class);
     }
