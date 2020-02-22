@@ -1,3 +1,4 @@
+<div class="container-fluid">
 			<!-- footer -->
 			<footer class="footer" role="contentinfo">
 				<div class="row" id="footer-margin-bottom">

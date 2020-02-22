@@ -24,8 +24,17 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-<li <?php wc_product_class( '', $product ); ?>>
+		<li class="col-sm-3"><div class="product-box" <?php wc_product_class( '', $product ); ?>>
 	<?php
+	/**
+	 * Get HTML to show product stock.
+	 *
+	 * @since  3.0.0
+	 * @param  WC_Product $product Product Object.
+	 * @return string
+	 */
+	 do_action( 'woocommerce_get_stock_html');
+
 	/**
 	 * Hook: woocommerce_before_shop_loop_item.
 	 *
@@ -33,28 +42,16 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 */
 	do_action( 'woocommerce_before_shop_loop_item' );
 
+
 	/**
 	 * Hook: woocommerce_before_shop_loop_item_title.
 	 *
 	 * @hooked woocommerce_show_product_loop_sale_flash - 10
 	 * @hooked woocommerce_template_loop_product_thumbnail - 10
-	 */
-	do_action( 'woocommerce_before_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_product_title - 10
-	 */
-	do_action( 'woocommerce_shop_loop_item_title' );
-
-	/**
-	 * Hook: woocommerce_after_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_rating - 5
-	 * @hooked woocommerce_template_loop_price - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item_title' );
+	 */ do_action( 'woocommerce_before_shop_loop_item_title' );
+	?> 
+	<div class="card-product-li">
+	<?php
 
 	/**
 	 * Hook: woocommerce_after_shop_loop_item.
@@ -63,5 +60,35 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	 * @hooked woocommerce_template_loop_add_to_cart - 10
 	 */
 	do_action( 'woocommerce_after_shop_loop_item' );
+
+	/**
+	 * Hook: woocommerce_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_template_loop_product_title - 10
+	 */	
+
+
+	do_action( 'woocommerce_shop_loop_item_title' );
+	/**
+    * woocommerce_before_shop_loop hook.
+    *
+    * @hooked woocommerce_result_count - 20
+    * @hooked woocommerce_catalog_ordering - 30
+    */
+    
+    do_action( 'woocommerce_shop_loop_subcategory_titl' );
+    ?>
+    <div class="combine">
+    <?php
+	/**
+	 * Hook: woocommerce_after_shop_loop_item_title.
+	 *
+	 * @hooked woocommerce_template_loop_rating - 5
+	 * @hooked woocommerce_template_loop_price - 10
+	 */
+	do_action( 'woocommerce_after_shop_loop_item_title' );
+	
 	?>
-</li>
+</div>
+</div>
+	</li>

@@ -1,0 +1,161 @@
+2020-02-21T07:20:45+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:480
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress-html5/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 480
+
+2020-02-21T07:21:20+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:480
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 480
+
+2020-02-21T07:21:22+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:480
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress-html5/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 480
+
+2020-02-21T07:27:25+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:480
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress-html5/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 480
+
+2020-02-21T07:27:38+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:480
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 480
+
+2020-02-21T07:27:48+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:479
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-blog-header.php(13): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress-html5/index.php(17): require('/var/www/html/w...')
+#5 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 479
+
+2020-02-21T07:27:52+00:00 CRITICAL Uncaught Error: Call to undefined function woocommerce_product_subcategories() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php:479
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-settings.php(497): include()
+#1 /var/www/html/wordpress-html5/wp-config.php(93): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress-html5/wp-load.php(37): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress-html5/wp-admin/admin-ajax.php(22): require_once('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 479
+
+2020-02-21T07:41:44+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:43:45+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:45:46+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:47:46+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:49:47+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:51:48+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:53:49+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:55:50+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:57:50+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T07:59:51+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:01:52+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:03:53+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:05:54+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:07:55+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:09:56+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:11:56+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:13:56+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:15:56+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:17:57+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:18:14+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:18:29+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:20:30+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:22:31+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:24:32+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:26:33+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:28:34+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:30:35+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:32:36+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:34:38+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:36:38+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:38:39+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:40:40+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:42:41+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:44:42+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T08:45:46+00:00 CRITICAL syntax error, unexpected 'function' (T_FUNCTION), expecting identifier (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 465
+
+2020-02-21T09:12:55+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_rating_html() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/single-product/rating.php:44
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1515): wc_get_template('single-product/...')
+#2 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(288): woocommerce_template_single_rating('')
+#3 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wordpress-html5/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#6 /var/www/html/wordpress-html5/wp-includes/template.php(724): require('/var/www/html/w...')
+#7 /var/www/html/wordpress- in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/single-product/rating.php on line 44
+
+2020-02-21T09:13:04+00:00 CRITICAL Uncaught Error: Call to undefined method WC_Product_Simple::wc_get_rating_html() in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/single-product/rating.php:44
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/wc-core-functions.php(249): include()
+#1 /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/wc-template-functions.php(1515): wc_get_template('single-product/...')
+#2 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(288): woocommerce_template_single_rating('')
+#3 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#4 /var/www/html/wordpress-html5/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/content-single-product.php(60): do_action('woocommerce_sin...')
+#6 /var/www/html/wordpress-html5/wp-includes/template.php(724): require('/var/www/html/w...')
+#7 /var/www/html/wordpress- in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/single-product/rating.php on line 44
+
+2020-02-21T09:46:52+00:00 CRITICAL syntax error, unexpected ',', expecting variable (T_VARIABLE) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 485
+

@@ -460,4 +460,37 @@ the_title();
 
 }
 add_shortcode( 'my_elementor_php_output', 'wpc_elementor_shortcode');
-?>
+
+// add product category on shop page
+function wpa89819_wc_single_product(){
+
+    $product_cats = wp_get_post_terms( get_the_ID(), 'product_cat' );
+
+    if ( $product_cats && ! is_wp_error ( $product_cats ) ){
+
+        $single_cat = array_shift( $product_cats ); ?>
+
+        <h2 itemprop="name" class="product_category_title"><span><?php echo $single_cat->name; ?>
+        </span></h2>
+
+<?php }
+}
+add_action( 'woocommerce_shop_loop_subcategory_titl', 'wpa89819_wc_single_product', 2 );
+// show rating of the single product
+// For single product pages
+function get_star_rating()
+{
+    global $woocommerce, $product;
+    $average = $product->get_average_rating();
+
+    echo '<div class="star-rating"><span style="width:'.( ( $average / 5 ) * 100 ) . '%"><strong itemprop="ratingValue" class="rating">'.$average.'</strong> '.__( 'out of 5', 'woocommerce' ).'</span></div>';
+}add_action('woocommerce_product_get_rating_html', 'get_star_rating' );
+
+
+//display out of stock using hook in shop page
+add_action( 'woocommerce_get_stock_html', 'woocommerce_template_loop_stock', 10 );
+function woocommerce_template_loop_stock() {
+    global $product;
+    if ( ! $product->managing_stock() && ! $product->is_in_stock() )
+        echo '<p class="stock out-of-stock">Out of Stock</p>';
+}

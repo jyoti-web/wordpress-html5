@@ -1,0 +1,11 @@
+2020-02-22T06:11:51+00:00 CRITICAL Uncaught Error: Call to a member function get_formatted_name() on string in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/class-wc-emails.php:639
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(288): WC_Emails->no_stock('')
+#1 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters('', Array)
+#2 /var/www/html/wordpress-html5/wp-includes/plugin.php(544): WP_Hook->do_action(Array)
+#3 /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/class-wc-emails.php(168): do_action_ref_array('woocommerce_no_...', Array)
+#4 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(288): WC_Emails::send_transactional_email(Array)
+#5 /var/www/html/wordpress-html5/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /var/www/html/wordpress-html5/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/woocommerce/content-product.php(85) in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/includes/class-wc-emails.php on line 639
+
