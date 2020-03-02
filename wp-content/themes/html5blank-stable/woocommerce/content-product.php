@@ -24,7 +24,7 @@ if ( empty( $product ) || ! $product->is_visible() ) {
 	return;
 }
 ?>
-		<li class="col-sm-3"><div class="product-box" <?php wc_product_class( '', $product ); ?>>
+<li class="col-sm-3"><div class="product-box" <?php wc_product_class( '', $product ); ?>>
 	<?php
 	/**
 	 * Get HTML to show product stock.
@@ -78,17 +78,17 @@ if ( empty( $product ) || ! $product->is_visible() ) {
     
     do_action( 'woocommerce_shop_loop_subcategory_titl' );
     ?>
-    <div class="combine">
-    <?php
-	/**
-	 * Hook: woocommerce_after_shop_loop_item_title.
-	 *
-	 * @hooked woocommerce_template_loop_rating - 5
-	 * @hooked woocommerce_template_loop_price - 10
-	 */
-	do_action( 'woocommerce_after_shop_loop_item_title' );
-	
-	?>
-</div>
-</div>
-	</li>
+	    <div class="combine">
+	    <?php
+		/**
+		 * Hook: woocommerce_after_shop_loop_item_title.
+		 *
+		 * @hooked woocommerce_template_loop_rating - 5
+		 * @hooked woocommerce_template_loop_price - 10
+		 */
+		do_action( 'woocommerce_after_shop_loop_item_title' );
+		
+		?>
+		</div>
+	</div>
+</li>

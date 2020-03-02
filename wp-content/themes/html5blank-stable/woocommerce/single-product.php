@@ -20,7 +20,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 }
 
 get_header( 'shop' ); ?>
-<div id="product" style="padding: 30px; background: red; border: 2px solid green;">
+<div id="product">
 
 	<?php
 		/**
@@ -32,12 +32,11 @@ get_header( 'shop' ); ?>
 		do_action( 'woocommerce_before_main_content' );
 	?>
 
-		<?php while ( have_posts() ) : the_post(); ?>
+		<?php while ( have_posts() ) : the_post(); 
 
-			<?php wc_get_template_part( 'content', 'single-product' ); 
-			'<div id="product" style="padding: 30px; background: red; border: 2px solid green;">'?>
+			 wc_get_template_part( 'content', 'single-product' ); 
 
-		<?php endwhile; // end of the loop. ?>
+		endwhile; // end of the loop. ?>
 
 	<?php
 		/**

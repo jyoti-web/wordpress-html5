@@ -157,3 +157,175 @@ a.woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover {
     bottom: 162px;
     background-color: #65e6f3;
 }
+/*Single Product page(single-product.php) css editing */
+article.type-product{
+    margin: 10px 0px; 
+}
+article h1{
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 38px;
+    line-height: 52px;
+    font-weight: 700;
+    font-style: normal;
+    padding: 10px 40px;
+}
+
+article .author,
+article .comments,
+article span.date{
+    display: none;
+}
+article .breadcrumb-container {
+    font-size: 15px !important;
+    padding: 10px 10px;
+    margin: 0px 0px;
+    margin: 0px 0px 10px 0px;
+    border-style: solid;
+    border-width: 1px 0px 1px 0px;
+    border-color: #CBCBCB;
+}
+.summary.entry-summary h2{
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    font-style: normal;
+    color: #4A859E;
+}
+.woocommerce-page div.product div.images{
+width: 96% !important;
+}
+.summary.entry-summary p.price{
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 18px !important;
+    line-height: 26px;
+    font-weight: 600;
+    margin: 15px 0px;
+    color: #4A859E !important;
+}
+.summary.entry-summary .woocommerce-product-details__short-description{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #797a7d;
+}
+.summary.entry-summary .quantity{
+    margin: 20px 0px !important;
+    padding: 10px 12px;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 5px;
+    color: #797a7d;
+    background-color: #fff;
+    border-color: #e0e0e0;
+    margin-right:  20px !important;
+    font-size: 15px;
+}
+.summary.entry-summary .quantity .qty{ 
+    border: none;
+}
+.summary.entry-summary .single_add_to_cart_button{
+    border: none;
+    color: white;
+    padding: 14px 30px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 25px;
+    margin: 20px 0px !important;
+    background-color: #37b4d0 !important;
+
+}
+.summary.entry-summary .product_meta > span {
+    display: block;
+    padding: 0 0 9px;
+    overflow: hidden;
+    text-align: right;
+    border-bottom-width: 1px;
+    border-bottom-style: dotted;
+    border-color: #e0e0e0;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-style: normal;
+    text-transform: none;
+}
+.summary.entry-summary .product_meta .sku_wrapper,
+.summary.entry-summary .product_meta .posted_in,
+.summary.entry-summary .product_meta .tagged_as{
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+    color: #4A859E;
+    text-align: left;
+}
+.sku_wrapper .sku, 
+.posted_in .cat, 
+.tagged_as .tg{
+    float: right;
+    color: #797a7d;
+}
+
+.product_meta > span + span {
+    margin-top: 18px;
+}
+.additional-info .woocommerce-tabs ul.tabs li.active{
+    box-shadow: none;
+
+}
+.additional-info .woocommerce-tabs ul.tabs li{
+    display: block;
+    padding: 10px 30px !important;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 18px;
+    line-height: 26px;
+    font-weight: 600;
+    color: #4A859E;
+    background-color: #fff !important;
+    box-shadow: 0 0 8px 0 rgba(0,0,0,0.15);
+    border-radius: 10px !important;
+    transition: all .3s ease;
+    margin: 10px 15px !important;
+    border: none !important;
+    position: unset !important;
+}
+.additional-info .woocommerce-tabs ul.tabs:before{
+    border-bottom: none !important;
+}
+.additional-info .woocommerce-tabs ul.tabs{
+    margin: 40px 0px !important;
+}
+.additional-info table.shop_attributes th
+{
+    width: 180px !important;
+    font-weight: 500 !important;
+    padding: 15px 20px !important;
+    border-top: 0 !important;
+    border-bottom: 1px solid #f1efef !important;
+    margin: 28px !important;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.additional-info table.shop_attributes td p {
+    margin: 0;
+    padding: 8px 0;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 500;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+}
+.additional-info .woocommerce-Tabs-panel h2{
+    display: none;
+}
+.additional-info .woocommerce-Tabs-panel--description{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #797a7d;
+}
+.additional-info .woocommerce-Tabs-panel ul{
+    margin-left: -22px;
+}
+.additional-info .woocommerce-Tabs-panel p{
+    font-size: 15px !important;
+}
