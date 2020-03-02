@@ -10,10 +10,8 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Libre+Franklin:300,400,500i,900i&display=swap&subset=latin-ext" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-
-
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
@@ -40,60 +38,36 @@
 			<!-- header -->
 			<header class="header clear" role="banner">
 					<!-- nav -->
-					<div class="row">
+					<div class="row header1">
+
 						<div class="col-sm-3 logo text-center">
 							<a href="<?php echo home_url(); ?>">
 									<!-- svg logo - toddmotto.com/mastering-svg-use-for-a-retina-web-fallbacks-with-png-script -->
 								<img src="<?php echo get_template_directory_uri(); ?>/img/logo11.png" alt="Logo" class="logo-img">
 							</a>
 						</div>
-						<div class="col-sm-9 ">
+						<div class="col-sm-6">
 							<nav class="navbar navbar-expand-lg navbar-light">					  
 									<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
 								    	<span class="navbar-toggler-icon"></span>
 								    </button>
 
 								<div class="collapse navbar-collapse" id="navbarSupportedContent">
-								    <ul class="navbar-nav snip1135">
-								      	<li class="nav-item active">
-								        	<a class="nav-link" href="/wordpress-html5/index.php/home-page/">Home </a>
-								      	</li>
-								     	<li class="nav-item">
-								        	<a class="nav-link" href="/wordpress-html5/index.php/about-us/">About Us</a>
-								      	</li>
-								     	
-								     	 <li class="nav-item">
-								        	<a class="nav-link" href="/wordpress-html5/index.php/timetable/">TimeTable</a>
-								      	</li>
-								      	<li class="nav-item">
-								        	<a class="nav-link" href="/wordpress-html5/index.php/blog/">Blogs</a>
-								      	</li>
-								      	
-								      	<li class="nav-item dropdown">
-								        	<a class="nav-link" href="#" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								          Pages
-								        	</a>
-									        <div class="dropdown-menu drop" aria-labelledby="dropdownMenuButton">
-									          	<a class="dropdown-item" href="/wordpress-html5/index.php/departments/">Departments</a>
-									          	<a class="dropdown-item" href="/wordpress-html5/index.php/doctors/">Our Doctors</a>
-									          	<a class="dropdown-item" href="/wordpress-html5/index.php/appointment/">Appointments</a>
-									          	<a class="dropdown-item" href="/wordpress-html5/index.php/faq/">FAQ</a>
-
-									        </div>
-								     	 </li>
-								      	<li class="nav-item">
-								      	    <a class="nav-link" href="/wordpress-html5/index.php/shop/">Shop</a>
-								      	</li>
-								       	<li class="nav-item">
-								        	<a class="nav-link" href="/wordpress-html5/index.php/contacts/">Contact</a>
-								      	</li>
+								      <ul class="navbar-nav snip1135">
+								      	<?php html5blank_nav(); ?>
 								    </ul>
 								</div>
 							</nav>
 						</div>
+						<div class="col-sm-3 ">
+							<ul class="social-network social-circle header-icon">
+								<li><a href="tel:1234567890" class="number" style="background-color: #f0f8ff00; font-size: 18px; font-family: fantasy;">1234567890</a></li>
+				             	<li><a href="#" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+				             	<li><a href="#" class="icoWhatsapp" title="Whatsapp"><i class="fa fa-whatsapp"></i></a></li>
+					        </ul> 
+						</div>
 					</div>
-					<hr>
-					 <?php //html5blank_nav(); ?>
+					<hr class="top-margin-0">
 			</header>
 
 

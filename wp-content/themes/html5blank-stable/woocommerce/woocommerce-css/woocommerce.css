@@ -1,9 +1,9 @@
 .products li.col-sm-3{
  	display: inline-block !important;
-}
+	}
 @media (min-width: 576px){
   .products li.col-sm-3 {
-	    max-width: 24% !important;
+	    max-width: 24.8% !important;
 	    margin-right: 0px ;
 	    padding: 0px !important;
 		}
@@ -20,6 +20,9 @@
 	padding: 30px 25px 40px;
 	border-radius: 0 0 10px 10px;
 	}
+.woocommerce .columns-4{
+	margin:0px 20px;
+}
 @media (min-width: 1025px){
 	.products.columns-3{
 		margin-right: -45px !important;
@@ -115,7 +118,7 @@ a.woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover {
     color: white!important;
     background-color: #4fb5c0!important;
     display: inline-block !important;
-    width: 87% !important;
+    width: 88% !important;
     bottom: 166px !important;
     text-align: center !important;
     left: 20px !important;

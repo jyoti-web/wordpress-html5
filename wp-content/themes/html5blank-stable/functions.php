@@ -85,7 +85,9 @@ function html5blank_nav()
 		'walker'          => ''
 		)
 	);
+
 }
+
 
 // Load HTML5 Blank scripts (header.php)
 function html5blank_header_scripts()
@@ -128,7 +130,8 @@ function register_html5_menu()
     register_nav_menus(array( // Using array to specify more menus if needed
         'header-menu' => __('Header Menu', 'html5blank'), // Main Navigation
         'sidebar-menu' => __('Sidebar Menu', 'html5blank'), // Sidebar Navigation
-        'extra-menu' => __('Extra Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
+        'extra-menu' => __('Extra Menu', 'html5blank'),
+        'footer_menu' => __('Footer Menu', 'html5blank') // Extra Navigation if needed (duplicate as many as you need!)
     ));
 }
 
@@ -169,6 +172,7 @@ function add_slug_to_body_class($classes)
     return $classes;
 }
 
+
 // If Dynamic Sidebar Exists
 if (function_exists('register_sidebar'))
 {
@@ -188,6 +192,16 @@ if (function_exists('register_sidebar'))
         'name' => __('Widget Area 2', 'html5blank'),
         'description' => __('Description for this widget-area...', 'html5blank'),
         'id' => 'widget-area-2',
+        'before_widget' => '<div id="%1$s" class="%2$s">',
+        'after_widget' => '</div>',
+        'before_title' => '<h3>',
+        'after_title' => '</h3>'
+    ));
+    // Define Sidebar Widget Area 3
+    register_sidebar(array(
+        'name' => __('Widget Area 3', 'html5blank'),
+        'description' => __('Description for this widget-area...', 'html5blank'),
+        'id' => 'widget-area-3',
         'before_widget' => '<div id="%1$s" class="%2$s">',
         'after_widget' => '</div>',
         'before_title' => '<h3>',
@@ -229,6 +243,7 @@ function html5wp_custom_post($length)
 {
     return 40;
 }
+
 
 // Create the Custom Excerpts callback
 function html5wp_excerpt($length_callback = '', $more_callback = '')
@@ -334,6 +349,7 @@ function html5blankcomments($comment, $args, $depth)
 	</div>
 	<?php endif; ?>
 <?php }
+
 
 /*------------------------------------*\
 	Actions + Filters + ShortCodes
@@ -484,7 +500,8 @@ function get_star_rating()
     $average = $product->get_average_rating();
 
     echo '<div class="star-rating"><span style="width:'.( ( $average / 5 ) * 100 ) . '%"><strong itemprop="ratingValue" class="rating">'.$average.'</strong> '.__( 'out of 5', 'woocommerce' ).'</span></div>';
-}add_action('woocommerce_product_get_rating_html', 'get_star_rating' );
+}
+add_action('woocommerce_product_get_rating_html', 'get_star_rating' );
 
 
 //display out of stock using hook in shop page

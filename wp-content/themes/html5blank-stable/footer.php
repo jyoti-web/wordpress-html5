@@ -1,15 +1,15 @@
 <div class="container-fluid">
 			<!-- footer -->
-			<footer class="footer" role="contentinfo">
+			 <footer class="footer" role="contentinfo">
 				<div class="row" id="footer-margin-bottom">
 					<div class="col-sm-3">
 						<h4>Extra Link</h4>
 						<ul class="lists">
-							<li>Departments</li>
-							<li>Site Map</li>
-							<li>Doctors</li>
-							<li>Common Questions</li>
-							<li>TimeTable</li>
+							<li><a href="/wordpress-html5/index.php/departments/">Departments</a></li>
+							<li><a href="/wordpress-html5/index.php/contacts/">Site Map</a></li>
+							<li><a href="/wordpress-html5/index.php/doctors/">Doctors</a></li>
+							<li><a href="/wordpress-html5/index.php/faq/">Common Questions</a></li>
+							<li><a href="/wordpress-html5/index.php/timetable/">TimeTable</a></li>
 						</ul>
 					</div>
 					<div class="col-sm-3">
@@ -49,7 +49,9 @@
 					        </ul> 
 						</form>
 					</div>
-				</div>
+				</div> 
+<!-- 				hide footer menu
+ -->				<?php 	//wp_nav_menu( array('theme_location' => 'footer_menu',));?>
 				<hr>
 
 				<!-- copyright -->
@@ -61,11 +63,13 @@
 
 			</footer>
 			<!-- /footer -->
-
+   
 		</div>
-		<!-- /wrapper -->
+		<!-- /wrapper1 -->
 
-		<?php wp_footer(); ?>
+		<?php wp_footer(); 
+	
+?>
 
 		<!-- analytics -->
 		<script>
