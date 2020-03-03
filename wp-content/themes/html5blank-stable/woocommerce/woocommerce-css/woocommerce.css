@@ -161,7 +161,7 @@ a.woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover {
 article.type-product{
     margin: 10px 0px; 
 }
-article h1{
+article.product.type-product h1{
     font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
     font-size: 38px;
     line-height: 52px;
@@ -328,4 +328,33 @@ width: 96% !important;
 }
 .additional-info .woocommerce-Tabs-panel p{
     font-size: 15px !important;
+}
+.related.products li.col-sm-3{
+    max-width: 33.3% !important;
+}
+.product-categories .cat-item .count{
+    color: #444!important;
+}
+.sidebar-widget ul.product_list_widget li img{
+    width: 65px !important;
+    border-radius: 100%;
+    float: left !important;
+    margin-right: 15px;
+}
+.sidebar-widget ul.product_list_widget li{
+    padding: 20px 5px !important;
+}
+.sidebar-widget ul.product_list_widget li del, .woocommerce-Price-amount{
+    color: #444 !important;
+    font-size: 13px; 
+    margin-top: 5px;
+}
+.sidebar-widget ul.product_list_widget li .product-title{
+font-size: 16px;
+    color: #4A859E;
+    font-weight: 500;
+}
+.sidebar-widget ul.product_list_widget li .star-rating{
+    font-size: 12px !important;
+    margin: 5px 0px;
 }
