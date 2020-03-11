@@ -21,14 +21,14 @@
 					<?php wpmtst_the_title( '<h3 class="testimonial-heading">', '</h3>' ); ?>
 
 					<div class="testimonial-content">
-						<?php wpmtst_the_thumbnail(); ?>
-						<div class="maybe-clear"></div>
 						<?php wpmtst_the_content(); ?>
+						<div class="maybe-clear"></div>
+
 						<?php do_action( 'wpmtst_after_testimonial_content' ); ?>
+
 					</div>
-
-					<?php wpmtst_the_client(); ?>
-
+						<?php wpmtst_the_client(); ?>
+						<?php wpmtst_the_thumbnail(); ?>
 					<div class="clear"></div>
 
 					<?php do_action( 'wpmtst_after_testimonial' ); ?>

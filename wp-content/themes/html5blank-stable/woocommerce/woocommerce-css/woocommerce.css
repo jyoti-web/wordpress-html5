@@ -72,22 +72,22 @@
 .product-box .star-rating::before{
 	color: #4A859E!important;
 }
-.product-box  span.onsale{
+.product-box .onsale{
 	min-height: 0px !important;
-    min-width: 80px !important;
-    padding: 10px !important;
-    font-size: 1em !important;
+    min-width: 0px !important;
+    font-size: 14px !important;
     font-weight: 700;
-    position: absolute;
-    text-align: center;
-    top: 1.5em !important;
-    left: 15.5em !important;
+    position: absolute !important;
+    left: 11.5em !important;
     line-height: 18px !important;
     margin: 0;
     border-radius: 20px !important;
-    background-color: #32c2e3 !important; 
+    background-color: #80DFF8 !important; 
     color: #fff !important;
-    font-size: 13px !important;
+    float: right !important;
+    right: 40px !important;
+    top: 22px !important;
+    padding: 8px 18px !important; 
 
 }
 .woocommerce .woocommerce-ordering, .woocommerce-page .woocommerce-ordering{
@@ -125,7 +125,7 @@ a.woocommerce-LoopProduct-link.woocommerce-loop-product__link:hover {
     transition: all 0.35s ease !important;
     
 }
-.woocommerce a.button{
+.product-box a.button{
 	display: none !important;
 
 }
@@ -175,15 +175,14 @@ article .comments,
 article span.date{
     display: none;
 }
-article .breadcrumb-container {
+/*article .breadcrumb-container {
     font-size: 15px !important;
     padding: 10px 10px;
-    margin: 0px 0px;
-    margin: 0px 0px 10px 0px;
+    margin: 0px 0px !important;
     border-style: solid;
     border-width: 1px 0px 1px 0px;
     border-color: #CBCBCB;
-}
+}*/
 .summary.entry-summary h2{
     font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
     font-size: 30px;
@@ -210,7 +209,9 @@ width: 96% !important;
     font-style: normal;
     color: #797a7d;
 }
-.summary.entry-summary .quantity{
+.summary.entry-summary .quantity .qty,
+.custom-add-to-cart .quantity .qty
+{
     margin: 20px 0px !important;
     padding: 10px 12px;
     border-width: 1px;
@@ -221,10 +222,16 @@ width: 96% !important;
     border-color: #e0e0e0;
     margin-right:  20px !important;
     font-size: 15px;
+        width: 85px !important;
+
 }
-.summary.entry-summary .quantity .qty{ 
+.custom-add-to-cart .quantity .qty{
+    margin: 0px !important;
+    padding:15px 10px !important;
+}
+/*.summary.entry-summary .quantity .qty{ 
     border: none;
-}
+}*/
 .summary.entry-summary .single_add_to_cart_button{
     border: none;
     color: white;
@@ -332,29 +339,213 @@ width: 96% !important;
 .related.products li.col-sm-3{
     max-width: 33.3% !important;
 }
+@media (min-width: 320px) and (max-width: 414px){
+    .related.products li.col-sm-3{
+    max-width: 100% !important;
+    }
+}
 .product-categories .cat-item .count{
     color: #444!important;
 }
-.sidebar-widget ul.product_list_widget li img{
+.sidebar-widget.my-first-widget ul.product_list_widget li img{
     width: 65px !important;
     border-radius: 100%;
     float: left !important;
     margin-right: 15px;
 }
-.sidebar-widget ul.product_list_widget li{
+.sidebar-widget.my-first-widget ul.product_list_widget li{
     padding: 20px 5px !important;
 }
-.sidebar-widget ul.product_list_widget li del, .woocommerce-Price-amount{
+.sidebar-widget.my-first-widget ul.product_list_widget li del, .woocommerce-Price-amount{
     color: #444 !important;
     font-size: 13px; 
     margin-top: 5px;
 }
-.sidebar-widget ul.product_list_widget li .product-title{
+.sidebar-widget.my-first-widget ul.product_list_widget li .product-title{
 font-size: 16px;
     color: #4A859E;
     font-weight: 500;
 }
-.sidebar-widget ul.product_list_widget li .star-rating{
+.sidebar-widget.my-first-widget ul.product_list_widget li .star-rating{
     font-size: 12px !important;
     margin: 5px 0px;
+}
+
+.widget_shopping_cart_content ul.cart_list li.mini_cart_item{
+    box-shadow: 1px 1px 20px 1px gainsboro !important;
+    padding: 35px 25px !important;
+    margin: 20px -10px !important;
+    border-bottom: none !important;
+    border-radius: 10px !important;
+}
+.sidebar-widget.my-first-widget ul li.woocommerce-mini-cart-item a.remove {
+    top: 55px !important;
+    right: 25px !important;
+    left:inherit;
+    font-size: 24px !important;
+}
+.sidebar-widget.my-first-widget li a{
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 16px !important;
+    line-height: 24px !important;
+    font-weight: 500 !important; 
+    color: #4A859E !important;
+   
+}
+.sidebar-widget.my-first-widget li .quantity{
+    font-size: 14px !important;
+    color: #444 !important;
+
+}
+
+.sidebar-widget.my-first-widget p a.button{
+    display: inline-grid !important;
+    margin-top: 20px !important;
+    padding: 14px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 25px;
+    margin: 20px 2px !important;
+    background-color: #37b4d0 !important;
+    color: white;
+}
+.sidebar-widget.my-first-widget .woocommerce-mini-cart__total.total,
+.woocommerce-mini-cart__total.total .amount{
+    border-top: none !important;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #4A859E;
+}
+.custom-add-to-cart .shop_table tr th{
+    text-align: left;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    padding: 15px 12px !important;
+    background-color: #4A859E;
+    color: white;
+}
+.custom-add-to-cart .shop_table tr td{
+    padding: 10px 10px !important;
+    }
+
+.custom-add-to-cart .shop_table tr th.product-name,
+.product-price, .product-quantity{
+    border-right: 1px solid rgba(255,255,255,0.2);
+
+}
+.custom-add-to-cart table.cart img{
+    width: 50px !important;
+    border-radius: 100%;
+} 
+.custom-add-to-cart .product-remove a.remove{
+    width: 0px !important;
+    display: initial !important;
+}
+.custom-add-to-cart .product-remove a.remove:hover{
+    color: grey !important;
+    background-color: #ffffff00;
+}
+.custom-add-to-cart .coupon .input-text{
+    width: 50% !important;
+}
+.custom-add-to-cart td button.button,
+.custom-add-to-cart .checkout-button.button.alt,
+.custom-checkout-form .button.alt
+{
+    background-color: #37B4D0 !important;
+    border-style: solid;
+    border-radius: 50px;
+    padding: 12px 30px;
+    margin-left: 5px;
+    line-height: 22px;
+    font-size: 16px;
+    color: white;
+    margin-top: 15px;
+    display: inline-block !important;
+}
+.custom-checkout-form .button.alt{
+    float: left !important;
+}
+
+.custom-add-to-cart td input{
+    margin-top: 15px !important;
+}
+
+.custom-add-to-cart .cart button.button{
+    float: right !important;
+}
+.custom-add-to-cart .cart-collaterals .cart_totals{
+    width: 100% !important;
+}
+.custom-add-to-cart .shop_table tr.cart-subtotal th,
+tr.order-total th{
+    background-color: white !important;
+    color: #4A859E !important;
+}
+.custom-add-to-cart .cart_totals h2{
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+.custom-checkout-form .form-row{
+    display: block !important;
+}
+.custom-checkout-form .select2-container .select2-selection--single{
+    height: 45px !important;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+.custom-checkout-form .select2-selection__rendered,
+.select2-selection__arrow{
+    margin-top: 10px;
+    margin-right: 10px;
+}
+.custom-checkout-form form .form-row textarea{
+    height: 18em !important;
+    padding: 15px !important;
+}
+.custom-checkout-form label {
+    font-size: 14px !important;
+    font-weight: 600;
+    color: #4A859E;
+
+}
+.custom-checkout-form input{
+    color: black;
+    font-size: 14px;
+}
+.custom-checkout-form tr th,
+.custom-checkout-form tr td{
+    width: 50%;
+    padding: 15px 20px !important;
+    font-size: 14px;
+    text-align: left !important;
+}
+.custom-checkout-form thead tr th{
+    background-color: #4A859E;
+    color: white;
+    border-right: 1px solid #b5b5b5a3;
+}
+
+.custom-checkout-form .checkout h3{
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+    font-size: 22px;
+    line-height: 32px;
+    font-weight: 600;
+    color: #4A859E;
+    margin-bottom: 20px;
+}
+.custom-checkout-form .woocommerce-checkout #payment{
+    background: #ffffff;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px lightgrey;
+    padding: 20px;
+    margin-top: 50px;
 }

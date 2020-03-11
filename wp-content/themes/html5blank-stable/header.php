@@ -88,4 +88,15 @@ if ( $lastposts ) {
   wp_reset_postdata();
 }	
  -->
-<!--  Can you please give me access of this page? -->
+<!-- //$my_query = query_posts('post_id'); 
+   // global $post;
+  //  foreach ($my_query as $post) {
+    // echo the_post_thumbnail();
+   //  echo "<h1>" ;
+     //echo  the_title() ;
+  //   echo "</h1>";
+     //echo "<p>";
+   // echo get_the_date();
+  //   echo "</p>";
+// echo the_excerpt();
+  //  } -->

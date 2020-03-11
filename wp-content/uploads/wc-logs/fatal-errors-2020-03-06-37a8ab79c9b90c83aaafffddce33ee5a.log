@@ -1,0 +1,2 @@
+2020-03-06T06:24:13+00:00 CRITICAL syntax error, unexpected 'the_author' (T_STRING) in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 3
+

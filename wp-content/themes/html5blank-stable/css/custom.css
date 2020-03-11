@@ -1,9 +1,14 @@
 .row{
   margin:0px!important;
 }
-/*body{
-  font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
-}*/
+body{
+    text-align: left;
+    font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif !important;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+}
 b, strong{
   font-weight: bold !important;
 }
@@ -355,11 +360,13 @@ input[type = submit]{
   }
 }*/
 .app-form label,
-.faq label{
+.faq label,
+.blog-leave-a-reply label{
   margin-right: 15px;
   font-size: 15px;
   color: #4A859E;
   margin-bottom: 15px;
+  font-weight: 400;
 }
 ::placeholder {
   color: grey;
@@ -378,23 +385,31 @@ input[type = submit]{
 hr{
   margin-bottom: 0px !important;
 }
-.my-first-widget .calendar_wrap{
-      width: 100%;
-    height: 365px;
+.my-first-widget .calendar_wrap #wp-calendar{
+      width: -webkit-fill-available;
     border: 1px solid white;
     box-shadow: 1px 1px 5px 1px #80808045;
     border-radius: 10px;
-    padding: 20px 30px;
     text-align: center;
     font-size: 15px;
 }
 .my-first-widget table tr th{
-  padding:  10px;
+  padding:  10px 0px;
   font-size: 14px;
+  border:none !important;
+  padding-top: 20px;
 }
 .my-first-widget table tr td{
-  padding: 8px;
-  font-size: 13px;
+  padding: 8px 0px;
+  font-size: 12px !important;
+  border:none !important;
+
+}
+.my-first-widget table tfoot tr td{
+  padding-bottom: 20px;
+}
+.my-first-widget caption {
+  caption-side:top!important;
 }
 .my-first-widget .is-search-submit{
   display: none !important;
@@ -433,6 +448,19 @@ hr{
 .my-first-widget #recent-comments-2 ul li{
   font-size: 14px;
   margin-left: 0px; 
+  font-weight: 500;
+  color: #797a7d;
+}
+.my-first-widget #recent-posts-3 ul li a,
+#recent-comments-2 ul li a,
+#categories-2 ul li a{
+    color: #4A859E;
+    font-weight: 500;
+}
+.my-first-widget #recent-posts-3 ul li a:hover,
+#recent-comments-2 ul li a:hover
+{
+    color: #444;
 }
 .my-first-widget li.recentcomments {
   color: #3c3c3c !important;
@@ -542,7 +570,7 @@ h4.tribe-event-title a{
   font-size: 16px;
 }
 .strong-view.simple.about-test  .testimonial-inner{
-  padding: 35px 30px 30px;
+  padding: 35px 30px 30px;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    
   margin-top: 3px;
 }
 .about-test .testimonial-name{
@@ -595,6 +623,7 @@ font-size: 13px;
 .Post-slider .testimonial-inner .testimonial-content{
   box-shadow: 1px 1px 10px 0px #8080805e;
   border-radius: 10px;
+  padding-bottom: 25px;
 }
 .Post-slider .testimonial-inner .testimonial-content p{
       font-weight: 500;
@@ -605,4 +634,86 @@ font-size: 13px;
 }
 .Post-slider figure img{
   margin-bottom: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.post-name-and-date .elementor-shortcode{
+  font-size: 13px;
+  font-weight: 500;
+}
+.post-name-and-date a{
+  color: #4A859E;
+}
+.elementor-image-carousel-caption{
+    padding: 30px 40px 25px 30px;
+    box-shadow: 2px 2px 6px gainsboro;
+    margin-bottom: 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.custom-post-using-php{
+  box-shadow: 1px 1px 15px lightgrey;
+    margin-bottom: 50px;
+}
+.custom-post-using-php{
+  border-radius: 10px;
+}
+.custom-post-using-php img{
+  border-top-left-radius: 10px !important;
+  border-top-right-radius: 10px !important;
+}
+.custom-post-data{
+  padding: 45px 60px 50px;
+  font-family: "Libre Franklin", Arial, Helvetica, 'Nimbus Sans L', sans-serif;
+
+}
+
+.custom-post-data h2{
+    font-size: 30px;
+    line-height: 42px;
+    font-weight: 700;
+    color: #4A859E;
+    margin-top: 35px;
+}
+.custom-post-data .custom-post-date {
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 600;
+}
+.custom-post-data h4{
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+    font-style: normal;
+    color: #797a7d;
+    margin-top: 30px;
+}
+.custom-post-data a{
+  color: #4A859E;
+  font-weight: 600;
+  font-size: 14px;
+}
+.custom-post-date i {
+  color: #c0c0c0;
+}
+.show-category a.button {
+  background-color: #2db7fd;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 30px !important;
+  border: 2px solid white;
+  font-size: 14px;
+  font-weight: 600;
+
+
+}
+.show-category a.button:hover{
+  background-color: white;
+  color: #2db7fd;
+  border: 2px solid #2db7fd;
+
+}
+.show-category{
+  display: inline-flex;
+  margin-right: 10px;
 }

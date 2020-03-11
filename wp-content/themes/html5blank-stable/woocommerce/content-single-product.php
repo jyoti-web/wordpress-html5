@@ -31,8 +31,9 @@ if ( post_password_required() ) {
 	return;
 }
 ?>
+<div class="breadcrumb1" style="border-bottom: 1px solid rgba(0,0,0,.1); border-top: 1px solid rgba(0,0,0,.1)">
 <?php echo do_shortcode("[breadcrumb]"); ?>
-
+</div>
 <div id="product1-<?php the_ID(); ?>"<?php wc_product_class( '', $product ); ?> style="margin: 40px 0px;">
 	<div class="row">
 		<div class="col-sm-3">	

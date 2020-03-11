@@ -1,0 +1,14 @@
+2020-03-02T10:56:27+00:00 CRITICAL syntax error, unexpected '_n' (T_STRING), expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+
+2020-03-02T10:56:45+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+
+2020-03-02T10:59:28+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+
+2020-03-02T11:03:30+00:00 CRITICAL syntax error, unexpected 'count' (T_STRING), expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+
+2020-03-02T11:05:17+00:00 CRITICAL syntax error, unexpected '$product' (T_VARIABLE), expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+
+2020-03-02T11:06:22+00:00 CRITICAL syntax error, unexpected 'count' (T_STRING), expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+
+2020-03-02T11:11:07+00:00 CRITICAL syntax error, unexpected ''</span>'' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/plugins/woocommerce/templates/single-product/meta.php on line 34
+

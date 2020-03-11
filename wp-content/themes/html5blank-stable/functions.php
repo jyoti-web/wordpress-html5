@@ -511,3 +511,14 @@ function woocommerce_template_loop_stock() {
     if ( ! $product->managing_stock() && ! $product->is_in_stock() )
         echo '<p class="stock out-of-stock">Out of Stock</p>';
 }
+
+// Display Login form using this code in login-page.php
+add_shortcode( 'wc_login_form_bbloomer', 'bbloomer_separate_login_form' );
+  
+function bbloomer_separate_login_form() {
+   if ( is_admin() ) return;
+   if ( is_user_logged_in() ) return; 
+   ob_start();
+   woocommerce_login_form();
+   return ob_get_clean();
+}

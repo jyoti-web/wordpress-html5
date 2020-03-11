@@ -15,11 +15,11 @@
 					<div class="col-sm-3">
 						<h4>Help & FAQs</h4>
 						<ul class="lists">
-							<li>Appointment</li>
-							<li>Privacy & Policy</li>
-							<li>Terms & Conditions</li>
-							<li>Blog</li>
-							<li>Login</li>
+							<li><a href="/wordpress-html5/index.php/appointment/">Appointment</a></li>
+							<li><a href="">Privacy & Policy</a></li>
+							<li><a href="">Terms & Conditions</a></li>
+							<li><a href="/wordpress-html5/index.php/blog/">Blog</a></li>
+							<li><a href="/wordpress-html5/index.php/login-page/">Login</a></li>
 
 						</ul>
 					</div>

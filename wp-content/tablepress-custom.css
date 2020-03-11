@@ -1,0 +1,96 @@
+.all-events tr td:hover {
+	background-color: #4A859E !important;
+	color: white;
+}
+
+.all-events tr td {
+	font-weight: 700;
+	text-align: center !important;
+	font-size: 14px !important;
+	vertical-align: middle !important;
+	border: 1px solid white !important;
+	background-color: #dff0ff !important;
+}
+
+.all-events .column-1:hover {
+	color: grey;
+	background-color: white !important;
+}
+
+.all-events .column-1 {
+	background-color: white !important;
+	border: 1px solid #dadada !important;
+}
+
+.row-1 .column-1 {
+	background-color: #84d0ec !important;
+	border: none !important;
+}
+
+.tablepress thead th {
+	background-color: #84d0ec !important;
+	text-align: center;
+}
+
+tr td {
+	border: 1px solid #f1efef !important;
+	font-weight: 700;
+	text-align: center !important;
+	font-size: 14px !important;
+	vertical-align: middle !important;
+}
+
+.Blood .row-2 .column-4,
+.Blood .row-5 .column-2,
+.Blood .row-6 .column-6,
+.Ophthalmology .row-4 .column-3,
+.Ophthalmology .row-8 .column-4,
+.Ophthalmology .row-8 .column-6,
+.Radiography .row-9 .column-3,
+.Radiography .row-2 .column-5,
+.Radiography .row-8 .column-7,
+.Computer .row-6 .column-2,
+.Computer .row-2 .column-4,
+.Computer .row-6 .column-6,
+.Manual .row-8 .column-2,
+.Manual .row-3 .column-4,
+.Manual .row-2 .column-6,
+.Laser .row-2 .column-2,
+.Laser .row-5 .column-5,
+.Laser .row-9 .column-7,
+.Allergy .row-2 .column-3,
+.Allergy .row-8 .column-5,
+.Allergy .row-4 .column-7,
+.Pediatrics .row-8 .column-3,
+.Pediatrics .row-2 .column-7,
+.Pediatrics .row-9 .column-5 {
+	background-color: #4A859E !important;
+	color: white !important;
+}
+
+.Blood .row-2 .column-4:hover,
+.Blood .row-5 .column-2:hover,
+.Blood .row-6 .column-6:hover,
+.Ophthalmology .row-4 .column-3:hover,
+.Ophthalmology .row-8 .column-4:hover,
+.Ophthalmology .row-8 .column-6:hover,
+.Radiography .row-9 .column-3:hover,
+.Radiography .row-2 .column-5:hover,
+.Radiography .row-8 .column-7:hover,
+.Computer .row-6 .column-2:hover,
+.Computer .row-2 .column-4:hover,
+.Computer .row-6 .column-6:hover,
+.Manual .row-8 .column-2:hover,
+.Manual .row-3 .column-4:hover,
+.Manual .row-2 .column-6:hover,
+.Laser .row-2 .column-2:hover,
+.Laser .row-5 .column-5:hover,
+.Laser .row-9 .column-7:hover,
+.Allergy .row-2 .column-3:hover,
+.Allergy .row-8 .column-5:hover,
+.Allergy .row-4 .column-7:hover,
+.Pediatrics .row-8 .column-3:hover,
+.Pediatrics .row-2 .column-7:hover,
+.Pediatrics .row-9 .column-5:hover {
+	background-color: #AAAAAD !important;
+}

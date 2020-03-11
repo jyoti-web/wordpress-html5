@@ -1,0 +1,55 @@
+2020-03-09T05:37:56+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 522
+
+2020-03-09T05:38:25+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 522
+
+2020-03-09T05:38:26+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 522
+
+2020-03-09T05:38:27+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 522
+
+2020-03-09T05:38:27+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 522
+
+2020-03-09T05:38:34+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 522
+
+2020-03-09T07:20:43+00:00 CRITICAL Uncaught Error: Call to undefined function thumbnail() in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code:11
+Stack trace:
+#0 /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65): eval()
+#1 /var/www/html/wordpress-html5/wp-includes/shortcodes.php(325): xyz_ips_display_content(Array, '', 'xyz-ips')
+#2 [internal function]: do_shortcode_tag(Array)
+#3 /var/www/html/wordpress-html5/wp-includes/shortcodes.php(199): preg_replace_callback('/\\[(\\[?)(xyz\\-i...', 'do_shortcode_ta...', '[xyz-ips snippe...')
+#4 /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/widgets/shortcode.php(130): do_shortcode('[xyz-ips snippe...')
+#5 /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/widget-base.php(531): Elementor\Widget_Shortcode->render()
+#6 /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+# in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 11
+
+2020-03-09T07:25:35+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 11
+
+2020-03-09T07:26:57+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 11
+
+2020-03-09T07:27:14+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 16
+
+2020-03-09T07:59:26+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 6
+
+2020-03-09T07:59:42+00:00 CRITICAL syntax error, unexpected '<' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 6
+
+2020-03-09T08:05:41+00:00 CRITICAL syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 7
+
+2020-03-09T09:13:33+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 14
+
+2020-03-09T09:14:59+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/controls-stack.php on line 1098
+
+2020-03-09T09:15:30+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/controls-stack.php on line 1296
+
+2020-03-09T09:16:20+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/controls-stack.php on line 1815
+
+2020-03-09T09:17:06+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/controls-stack.php on line 2005
+
+2020-03-09T09:17:44+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in /var/www/html/wordpress-html5/wp-content/plugins/elementor/includes/base/controls-stack.php on line 2005
+
+2020-03-09T09:29:32+00:00 CRITICAL syntax error, unexpected '<', expecting end of file in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 18
+
+2020-03-09T09:51:31+00:00 CRITICAL syntax error, unexpected ':', expecting ',' or ';' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 16
+
+2020-03-09T09:56:14+00:00 CRITICAL syntax error, unexpected 'custom' (T_STRING), expecting ',' or ';' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 5
+
+2020-03-09T09:56:39+00:00 CRITICAL syntax error, unexpected 'custom' (T_STRING), expecting ',' or ';' in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 5
+

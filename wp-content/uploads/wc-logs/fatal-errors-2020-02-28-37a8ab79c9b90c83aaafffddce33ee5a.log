@@ -1,0 +1,14 @@
+2020-02-28T09:17:54+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR), expecting end of file in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-02-28T09:18:07+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR), expecting end of file in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-02-28T09:18:17+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 3
+
+2020-02-28T09:18:59+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 3
+
+2020-02-28T09:19:30+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-02-28T09:20:00+00:00 CRITICAL syntax error, unexpected 'IF' (T_IF) in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+
+2020-02-28T09:20:17+00:00 CRITICAL syntax error, unexpected 'if' (T_IF) in /var/www/html/wordpress-html5/wp-content/plugins/insert-php-code-snippet/shortcode-handler.php(65) : eval()'d code on line 2
+

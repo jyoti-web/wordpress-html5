@@ -1,0 +1,24 @@
+2020-02-27T08:43:59+00:00 CRITICAL syntax error, unexpected '}' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 206
+
+2020-02-27T09:32:20+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF), expecting end of file in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/sidebar.php on line 14
+
+2020-02-27T09:32:38+00:00 CRITICAL syntax error, unexpected 'else' (T_ELSE), expecting end of file in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/sidebar.php on line 14
+
+2020-02-27T09:32:49+00:00 CRITICAL syntax error, unexpected 'elseif' (T_ELSEIF), expecting end of file in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/sidebar.php on line 14
+
+2020-02-27T09:46:17+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 90
+
+2020-02-27T09:46:27+00:00 CRITICAL syntax error, unexpected ',' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 87
+
+2020-02-27T09:46:31+00:00 CRITICAL syntax error, unexpected ',' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 87
+
+2020-02-27T09:46:39+00:00 CRITICAL syntax error, unexpected 'wp_nav_menu' (T_STRING) in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 88
+
+2020-02-27T09:46:44+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 90
+
+2020-02-27T09:54:49+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 91
+
+2020-02-27T09:54:55+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 91
+
+2020-02-27T09:56:00+00:00 CRITICAL syntax error, unexpected ';', expecting ',' or ')' in /var/www/html/wordpress-html5/wp-content/themes/html5blank-stable/functions.php on line 513
+
